@@ -1,3 +1,9 @@
+# Eclipse
+*.log
+*.index
+*.snap
+*.resources
+
 *.class
 
 # Package Files #
