@@ -1,8 +1,5 @@
 # Eclipse
-*.log
-*.index
-*.snap
-*.resources
+.metadata/
 
 *.class
 
