@@ -1,5 +1,6 @@
 # Eclipse
 .metadata/
+*.log
 
 *.class
 
