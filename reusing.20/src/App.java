@@ -9,9 +9,9 @@ class A {
 class B extends A {
     // @Override // override isn't possible here because original method is private
     private void f() { System.out.println("ef()"); }
-    // @Override // origianl method is private
+    // @Override // original method is private
     private void g() { System.out.println("eg()"); }
-    // @Override // origianl method is final
+    // @Override // original method is final
     // void h() { System.out.println("eh()"); }
     @Override
     public void j() { System.out.println("ej()"); }
@@ -21,8 +21,8 @@ class B extends A {
 public class App {
     public static void main(String[] args) {
         B b = new B();
-        //b.f(); // can't call private merhod
-        //b.g() // can't call private merhod;
+        //b.f(); // can't call private method
+        //b.g() // can't call private method;
         b.h();
         b.j();
         b.k();
